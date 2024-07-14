@@ -1,0 +1,9 @@
+.right-sidebar{
+    display: grid;        
+    background-color: rgb(28, 30, 33);
+    width: 360px;
+    height: 1895.890px;
+    position: relative;
+    top: 56px;
+}
+

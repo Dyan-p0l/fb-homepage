@@ -1,0 +1,114 @@
+
+
+.header{
+    height: 56px;
+    background-color: rgb(36, 37, 38);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.left-section{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 446.4px;
+    max-width: 500px;
+}
+
+.right-section{
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.right-section div{
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+    margin: 0.05%;
+}
+
+.right-section svg{
+    margin-top: 4px;
+}
+
+.right-section button{
+    background-color: rgb(58, 59, 60);
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.fb-logo{
+    height: 69px;
+}
+
+.search-container{
+    padding-left: 45px;
+    width: 240px;
+    height: 40px;
+}
+
+.logo-container{
+    width: 40px;
+    margin: 0px 10pxpx 0px 16px;
+}
+
+.search-box{
+    flex: 1;
+    height: 100%;
+    width: 240px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(58, 59, 60);
+    color: rgb(176, 178, 184);
+    outline: none;
+}
+
+.search-box::placeholder{
+    font-size: 16px;
+    color: rgb(176, 178, 184);
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.home-icon,.watch-icon,.gaming-icon ,.groups-icon{
+    height: 24px;
+    width: 24px;
+    padding: 25% 5px 5px 5px;
+}
+
+.home-icon-container, .groups-icon-container, .gaming-icon-container, .watch-icon-container{
+    height: 38px;
+    width: 38px;
+    padding: 16px 16px 16px 16px;
+}
+
+.acc-profile{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}

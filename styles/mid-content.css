@@ -1,0 +1,144 @@
+.content-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Mid-content{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 265.987px 122px 860.287px;
+    grid-row-gap: 25px;
+    position: relative;
+    background-color: rgb(28, 30, 33);
+    width: 735px;
+    height: 1644.160px;
+    position: relative;
+    top: 56px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.stories-container{
+    display: flex;
+    flex-direction: row;
+    height: 249.987px;
+    width: 590px;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+
+}
+
+.day-img-cont{
+    width: 140.625px;
+    height: 249.998px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+}
+
+.day-img{
+    height: 100%;
+    width: 100%;
+}
+
+.post-suggest-cont{
+    display: grid;
+    grid-template-rows: 50% 48px;
+    height: 100px;
+    width: 558px;
+    background-color: rgb(36, 37, 38);
+    margin: auto;
+    padding: 12px 16px 10px 16px;
+    border-radius: 16px;
+}
+
+.post-content-cont{
+    height: 860.287px;
+    width: 590px;
+    background-color: rgb(36, 37, 38);
+    margin: auto;
+    border-radius: 16px;
+}
+
+.withsearchbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-container{
+    height: 45px;
+    width: 45px;
+    padding: 5px 5px 5px 5px;
+}
+
+.suggest-profile{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.input-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 59, 60);
+    color: rgb(176, 178, 184);
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+.input-box::placeholder{
+    color: rgb(176, 178, 184);
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.input-box-container{
+    height: 37px;
+    width: 260px;
+    flex: 1;
+    padding-left: 3px;
+}
+
+.file-upload-op{
+    height: 48px;
+    padding-top: 8px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.file-upload-op div{
+    padding: 8px 8px 8px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.conts{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(176, 179, 184);
+    justify-content: space-between;  
+}
+
+.conts p{
+    padding-left: 8px;
+}

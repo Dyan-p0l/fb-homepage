@@ -1,0 +1,71 @@
+.left-sidebar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 751.65px;
+    width: 360px;
+    background-color: rgb(28, 30, 33);
+    top: 56px;
+}
+
+.acc-dp-cont{
+    height: 40px;
+    width: 40px;
+}
+
+.acc-dp{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.acc-name-cont{
+    padding-left: 16px;
+}
+
+.acc-name{
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.acc, .sidebar-icons{
+    display: flex;
+    flex-direction: row;
+    height:52px;
+    width: 360;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    align-items: center;
+}
+
+.see-more{
+    margin-left: 10%px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    border-radius: 50%;
+    height: 36px;
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.see-more-icon{
+    margin-top: 4px;
+}
+
+.sidebar-text{
+        font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+        color: white;
+        font-weight: 600;
+        padding-left: 15px;
+        height: 34.99px;
+}
+
+.sidebar-sc{
+    color: rgb(176, 179, 184);
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    height: 21px;
+    font-weight: 600;
+    font-size: 17px;
+}
